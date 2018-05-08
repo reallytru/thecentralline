@@ -1,0 +1,249 @@
+<!Doctype html>
+<html lang="en">
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!--bootstrap--> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous"> 
+    
+<!--external css-->
+    <link rel="stylesheet" href="css/resourcesstyle.css" type="text/css" />
+    
+<!--Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Dosis|Quantico" rel="stylesheet">
+    
+    <title>The Central Line: Resources</title>
+</head>
+    
+<body>
+    
+<!-----------------------------
+---------<< HEADER >>----------
+------------------------------->
+<header>  
+    
+    <!--navbar-->
+    <nav class="navbar navbar-expand-md navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="index.html"><h1 id="navbrandtxt">The Central Line</h1></a>
+          <div class="snd"><a href="index.html"><h3 class="abbrev text-center my-auto">TCL</h3></a></div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>  
+          
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      
+            <ul class="navbar-nav">
+        
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">HOME</a>
+                </li>
+        
+                <li class="nav-item">
+                    <a class="nav-link" href="features.html">FEATURES</a>
+                </li>
+    
+                <li class="nav-item">
+                    <a class="nav-link" href="history.html">HISTORY</a>
+                </li>
+        
+                <li class="nav-item">
+                    <a class="nav-link" href="resources.html">RESOURCES</a>
+                </li>    
+        
+                <!--social media dropdown-->    
+                <li class="nav-item dropdown">
+          
+                    <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SHARE</a>
+            
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            
+                        <a class="dropdown-item" href="https://www.facebook.com/MTA.info" target="_blank">Facebook</a>
+            
+                        <a class="dropdown-item" href="https://www.flickr.com/photos/mtaphotos" target="_blank">Flickr</a>
+            
+                        <a class="dropdown-item" href="https://www.mta.info.com" target="_blank">MTA.info</a>   
+            
+                        <a class="dropdown-item" href="https://twitter.com/mta" target="_blank">Twitter</a>
+            
+                        <a class="dropdown-item" href="https://www.youtube.com/user/mtainfo" target="_blank">Youtube</a>    
+                    </div>
+          
+                </li> <!--end of dropdown-->
+      
+            </ul>
+        </div>
+</nav>
+
+</header>
+
+<!-----------------------------
+---------<< CONTENT >>---------
+-------------------------------> 
+
+<!--page name--> 
+<div class="jumbotron-fluid">
+  <div class="container pg d-flex flex-column justify-content-center">
+      <div class="row">
+        <h1 class="display-3 text-left">Resources</h1>
+      </div>
+      <div class="row">
+        <h3 class="lead text-left"><strong>Tricks & Tips For Transit Trips</strong></h3>      
+        </div>
+    </div>
+  </div>
+
+<!--fare calculator-->
+<section class="container" id="fare">
+    <div class="row my-4">
+    <div class="col-12">
+        <h1 class="text-center">Fare Calculations</h1>
+        <hr class="hrl" />
+    </div>
+    </div>
+    
+    <div class="row mb-5">
+    <div class="col-12">
+        <h4 class="text-center">For any transit adventure, you'll need to get to your destination and back.<br/>Use the fare calculator below before heading to your nearest station booth or Metrocard vending machine to purchase or refill your Metrocard.</h4>
+    </div>
+    </div>
+
+    <div class="row d-flex justify-content-around my-3">
+        <p>Rides desired: <input type="text" name="rides" placeholder="Input A Number" id="ridedesired" /></p>
+        <input type = "submit" name = "submit" value = "Calculate" id="faresubmit"/>
+    </div>    
+    
+    <div class="container mb-2">
+    <div class="row d-flex justify-content-around">    
+        <div class="col-sm-12 col-md-4 yvl">
+            <p class="fare text-left">Fare price:</p><p id="cost">$ <span id="ridecost"></span></p>
+            <p class="fare text-left mx-1">Remember if you are not refilling a metrocard, the card itself costs $1 on top of the fare price!</p>
+        </div>
+    
+    <div class="col-sm-12 col-md-4">
+        <p class="fare text-left mt-5">Heads up! You receive a bonus of 5%  when you buy or add $5.50 or more to your metrocard! If that doesn't seem like much, consider buying an unlimited metrocard!</p>
+    </div>
+    </div>
+    
+    <div class="row my-4 d-flex justify-content-around">
+        <div class="col-sm-12 col-md-5">
+            <p class="fare">Unlimited metrocards allow for multiple rides for a set time frame and at a discount. Compare prices for unlimited metrocards to your calculated fare price. Check if this type of metrocard is worth getting for your commute!</p>
+            <p class="fare">As of March 17, 2017, the base fare (a single ride) is $2.75.</p>
+            <p class="fare">A 7-day Unlimited Metrocard is $32.00</p>
+            <p class="fare">A 30-day Unlimited Metrocard is $121.00</p>
+            <p class="fare">You may qualify for reduced fare prices! Learn more <a href="http://web.mta.info/nyct/fare/rfindex.htm" target="_blank">HERE</a>!</p>
+        </div>
+
+    <div class="col-sm-12 col-md-5 my-auto">
+        <p class="yvl fare" id="bewareride">Be aware that unlimited metrocards do not allow for immediate consecutive uses! If you need consecutive rides for whatever reason, you'll need to wait a few minutes or go for a walk, the true New Yorker way. Learn more about the intricacies and any changes concerning metrocards at <a href="http://web.mta.info/nyct/fare/FaresatAGlance.htm" target="_blank">MTA.info</a></p>
+    </div>
+    </div>
+    </div>
+</section>
+
+<!--img divider-->
+<div class="container-fluid done"></div>
+
+<!--subway map-->
+<section class="container mx-auto my-5">
+    <div class="row my-4">
+    <div class="col-12 d-flex flex-column justify-content-between align-items-center">
+        <div>
+        <h1 class="text-center">Subway Map</h1>
+        <hr class="hrl"/>
+        <h4 class="text-center mb-2 mx-5">New York City's underground system connects much of its boroughs. Take advantage of all that this transit system has to offer. Don't forget to familiarize yourself with the train map first though!</h4>    
+        </div>
+        
+        <!--- Needs MTA API key to access MTA data (http://web.mta.info/developers/download.html) 
+        <object width="1000" height="500" data="http://web.mta.info/nyct/maps/subway_map.pdf"></object> --->
+        <img id="mtamap" src="img/mtamap.png" alt="subway map"/>
+    </div>
+    </div>
+</section>
+
+<!--img divider-->
+<div class="container-fluid dtwo"></div>
+
+<!--service widget-->
+<section class="container my-3">
+    <div class="row my-4">
+    <div class="col-12">
+        <h1 class="text-center">Service Status</h1>
+        <hr class="hrl"/>
+    </div>
+    </div>
+        
+    <div class="row d-flex justify-content-around align-items-center">
+    <!--- Needs MTA API key to access MTA data (http://web.mta.info/developers/download.html) 
+    <script type="text/javascript" src="http://www.mta.info/sites/all/libraries/mta_WidgetScripts/serviceStatusWidget.js" ></script>--->
+    <img id="service" src="img/servicewidget.png" alt="mta service widget"/> 
+    
+    <div class="col-sm-12 col-md-6 col-lg-6 my-3">
+        <p class="text-left yvl">The NYC subway is getting on in years. The first parts of it opened on October 27, 1904, which is over a century ago, and it sure shows! There are often delays, signal problems, and service changes. 
+            <br/><br/>Fortunately, the MTA does its best to inform the public of issues that disrupt service with service advisories and notifications online and posted in stations. Be sure to check what might be going on, so there are no surprises...though that's no guarantee for a smooth ride.. Find out more at <a href="https://www.mta.info" target="_blank">MTA HQ</a></p>
+    </div>
+    </div>
+</section>
+
+<!--img divider-->
+<div class="container-fluid dthree"></div>
+
+<!--google map-->
+<section class="container my-2">
+    <div class="row my-4">
+    <div class="col-12">
+        <h1 class="text-center">Hidden Treasures</h1>
+        <hr class="hrl"/>
+    </div>
+    </div>
+    
+    <div class="container">
+    <div class="row d-flex flex-column justify-content-center align-items-center">
+        <h4 class="text-center">NYC's subway system has a rich and interesting history, and consequently, there is plenty to learn, do, and see. In and around these train lines are plenty of hidden treasures and unique activities if you know where to look.</h4>
+            
+        <iframe id="gmap" src="https://www.google.com/maps/d/embed?mid=1b5N21L8DiAcnTzwNsk_pB_Uik5GSnZ8I"></iframe>
+    </div>
+    </div>
+</section>
+
+<!--img divider-->
+<div class="container-fluid dfour"></div>
+
+<!--nostalgia train-->
+<section class="container">
+    <div class="row my-4">
+    <div class="col-12">
+        <h1 class="text-center">Vintage Train Rides</h1>
+        <hr class="hrl"/>
+    </div>
+    </div>
+    
+    <div class="row">
+    <div class="col-12 my-auto mx-auto">
+        <p class="text-left yvl mb-5">
+        <a href="http://www.nytransitmuseum.org" target="_blank">The New York Transit Museum</a> not only offers a look into New York City's transit past and present, but also has a fleet of vintage subway cars and buses. Around the holidays, one such vintage train is put back into service one day every week in December.<br/><br/> This special eight-car subway train of  R1-9 cars from the 1930s has rattan seats, ceiling fans, incandescent bulb lighting, drop-sash style windows, vintage roll signs, and original advertisements. The experience is definitely unique and a special step into the past, priced at the usual Metrocard fare. Be sure to look out for it!
+            <br/><br/>
+            The train runs along the F train line between 2nd Avenue and Lexington Avenue / 63rd Street and via the Q train line between Lexington Avenue / 63rd Street and 96th Street on the Upper East Side.<br/><br/>
+            The special train leaves the 2nd Avenue station on the F line at 10am, 12pm, 2pm, and 4pm and from the 96th Street subway station on the Q line at 11am, 1pm, 3pm, and 5pm.<br/><br/>
+            IF that is not enough holiday spirit for you, check out the annual Holiday Train Show at Grand Central Station inside the New York Transit Museum shop there.</p>
+    </div>
+    </div>
+</section>
+
+<!--img divider-->
+<div class="container-fluid dfive"></div>
+
+<!--jquery-->    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+<!--jquery ui-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script> 
+<!--bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+<!--external jquery/javascript-->    
+    <script src="js/jquery.js"></script> 
+    
+</body>
+</html>

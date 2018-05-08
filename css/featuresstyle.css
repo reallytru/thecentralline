@@ -1,0 +1,475 @@
+html, body {
+  height:100%;
+  margin:0;
+  box-sizing: border-box;
+  background-color:lightgray;
+  background-image: url('../img/featuresbg.jpg');
+  background-position: center;
+  background-repeat: repeat-y;
+  background-size: cover;
+}
+
+/*-------------------------------
+--------<<Text Styling>>---------
+--------------------------------*/
+
+h1, h2, h3, h4 {
+  font-family: 'Trirong', serif;
+}
+
+#features, .gametitle, .instruct {
+  font-family: 'Quantico', sans-serif, "Georgia", serif;
+}
+
+#features {
+  font-size:70px;
+}
+
+.title { 
+  padding-top:10px;
+}
+/*-------------------------------
+-----<<Trivia Tidbits>>------
+--------------------------------*/
+#generator {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
+  background-color: #fff;
+  border-bottom:30px solid #000;
+  
+}
+
+.yline {
+  height:10px;
+  background-color: #f3f315;
+}
+
+.pscsec {
+  background-color:#000;
+  padding:1px;
+}
+
+#psc {
+  text-align:center;
+  color:#fff;
+}
+
+.pscsec2 {
+  margin-top:3px;
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  flex-wrap:wrap;
+}
+
+.trigger {
+  border-radius:50%;
+  overflow:hidden;
+}
+
+img {
+  max-width:150px;
+  min-width:100px;
+  display:block;
+}
+
+#daily {
+  text-align:center;
+  padding:10px;
+  border:1px solid #000;
+  margin:5px;
+}
+
+#age {
+  text-align:center;
+  margin:0;
+}
+
+#pscsec3 {
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  align-items:center;
+}
+
+/*-------------------------------
+-----<<Train Name Game>>------
+--------------------------------*/
+#game {
+  padding:20px;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.8);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.gametitle, #reflink, .instruct {
+  color:#f3f315;
+  font-variant: small-caps;
+  text-align: center;
+}
+
+#glink {
+  color: #EE352E;
+  font-variant: small-caps;
+  text-align: center;
+  font-size:60px;
+}
+
+.smcaps, .name {
+  font-variant: small-caps;
+  text-align: center;
+  color:#fff;
+}
+
+#trainNames {
+  margin:3px 80px;
+  padding:5px;
+  border:4px dotted #EE352E;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-around;
+  align-items:center;
+  background-color: #fff;
+}
+
+.name {
+  font-family: 'Trirong', serif;
+  font-size:40px;
+}
+
+.train {
+  height:60px;
+  width:70px;
+  border-radius:50%;
+  margin:3px;
+}
+
+.train:nth-child(3n+0) {
+  background-color: #B933AD;
+}
+
+.train:nth-child(3n+1) {
+  background-color: #0039A6;
+}
+
+.train:nth-child(3n+2) {
+  background-color:#996633;
+}
+
+.line {
+  border-style:solid;
+  background-color: #fff;
+}
+
+/*-------------------------------
+-----<<Desktop/Tablet Nav>>------
+--------------------------------*/
+header {
+  box-sizing: border-box;
+  padding:0;
+  margin:0;
+  width:180px;
+}
+
+#navbtn, #arrow {
+  position:fixed;
+  right:5px;
+  top:50%;
+  z-index:1;
+}
+
+#navbtn {  
+  height:60px;
+  width:60px;
+  padding:15px;
+}
+
+#arrow {
+  color:#EE352E;
+  padding:10px;
+  margin:0;
+  font-size: 40px;
+}
+
+#fixednav {
+  position:fixed;
+  top:0;
+  left:0;
+  z-index:1;
+  
+  display:flex;
+  flex-direction:column;
+  padding:10px;
+  background-color:#000;
+  height:100vh;
+  border-radius:1%;
+}
+
+#brand {
+  width:152px;
+  padding:5px;
+  border:2px dotted #EE352E;
+  margin-top:15%;
+  border-radius:5%;
+  font-family: 'Trirong', serif;
+}
+
+.dropdown-menu {
+  background-color:rgb(167,169,172);
+  background-color:rgba(167,169,172,0.9);
+  color:#fff;
+}
+
+#desknav {
+  padding:0;
+  margin-top:10px;
+}
+
+#navbarDropdownMenuLink {
+  padding:0;
+}
+/*-------------------------------
+---------<<Mobile Nav>>----------
+--------------------------------*/
+.abbrev {
+  color:#fff;
+  text-transform: uppercase;
+  font-family: 'Trirong', serif;
+}
+
+.snd {
+  background-color: red;
+  border-radius:50%;
+  padding:15px 10px;
+  margin-top:5px;
+}
+
+#mobile {
+  display:flex;
+  flex-direction:row;
+  padding:5px;
+  margin:0;
+}
+
+#mobilesitenav {
+  position: fixed;
+  top:10px;
+  left:10px;
+  z-index:1;
+  }
+  
+#siteunder {
+  position:fixed;
+  top:63px;
+  left:0;
+  z-index:1;
+}
+
+#mobilesharenav, #sharetrigger {
+  position: fixed;
+  top:10px;
+  right:10px;
+  border-radius: 50%;
+  z-index:1;
+}
+
+#shareunder {
+  position:fixed;
+  top:60px;
+  right:0;
+  z-index:1;
+}
+
+.share {
+  width:60px;
+  height:60px;
+  background-color: #6CBE45;
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  padding:5px;
+}
+
+.circle {
+  border-radius:50%;
+  background-color:#fff;
+  height:10px;
+  width:10px;
+  margin:3px;
+}
+
+.menu {
+  background-color: #FCCC0A;
+  width:62px;
+  height:60px;
+  padding:10px;
+  border-radius:50%;
+}
+
+/*mobile menu nav animation*/
+.bar1, .bar2, .bar3 {
+  margin:6px auto;
+  width: 25px;
+  height: 5px;
+  background-color: #fff;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+/*hidden mobile links*/
+ul {
+  display:flex;
+  flex-direction:column;
+  list-style-type: none;
+  margin-top:15px;
+  padding:5px;
+  background-color: rgba(0,0,0,0.5);
+  border-radius:5%;
+  
+}
+
+li, a, a:visited, a:link {
+  color:#fff;
+  text-decoration: none;
+  text-align: center;
+  font-family: 'Trirong', serif;
+}
+
+/*mobile styling*/
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+.title { 
+  margin-bottom:30px;
+}
+
+#features {
+  font-size:70px;  
+  text-shadow: 2px 2px #000;
+}
+
+#game {
+  margin-top:30px;
+}
+}
+
+/*tablet styling*/
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1199px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+.title { 
+  margin-top:0;
+}
+
+#game {
+  margin:10px 0px;
+}
+
+img {
+  max-width:200px;
+  min-width:150px;
+  display:block;
+}
+
+}
+
+/*laptop and desktop styling*/
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1300px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+.title { 
+  margin-top:0;
+}
+
+.container-fluid {
+  margin-top:20px;
+}
+
+#game {
+  margin:20px 0px;
+}
+
+img {
+  max-width:200px;
+  min-width:150px;
+  display:block;
+} 
+}
+
+@media screen 
+  and (min-device-width: 1301px) 
+  and (max-device-width: 1999px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+.title { 
+  padding-top:15px;
+  margin:0;
+}
+
+#features {
+  font-size:70px;
+  text-shadow: 2px 2px #000;
+}
+
+.container-fluid {
+  margin-top:15px;
+}
+
+h1, h2, h4, h5 {
+  font-size:30px;
+}
+
+img {
+  max-width:200px;
+  min-width:150px;
+  display:block;
+}  
+
+}
+  
+@media screen 
+  and (min-device-width: 2000px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+
+.title { 
+  padding-top:80px;
+  margin:0;
+}
+
+#features {
+  font-size:130px;
+  text-shadow: 2px 2px #000;
+} 
+
+.container-fluid {
+  margin-top:70px;
+}
+
+h1, h2, h4, h5 {
+  font-size:60px;
+}
+
+img {
+  max-width:260px;
+  min-width:190px;
+  display:block;
+} 
+
+#daily, #age {
+  font-size:40px;
+}
+}

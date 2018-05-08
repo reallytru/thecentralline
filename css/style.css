@@ -1,0 +1,162 @@
+html, body {
+  background-color: #000;
+  margin:0;
+}
+
+.landing {
+ display:flex;
+ align-items:center;
+ flex-direction:column;
+}
+
+h1, h3, p {
+  color:#fff;
+}
+
+.heading {
+  font-family: 'Quantico', sans-serif, "Georgia", serif;
+  font-size:90px;
+  text-align: center;
+}
+
+.subheading {
+  font-family: 'Dosis', sans-serif, "Helvetica", sans-serif;  
+  font-size:40px;
+}
+
+.ltext {
+    font-family: 'Dosis', sans-serif, "Helvetica", sans-serif; 
+}
+
+a:link, a:visited {
+    text-decoration: none;
+}
+
+.wline {
+  margin-top: 50px;
+  height:5px;
+  background-color: #fff;
+}
+
+.llinks {
+  height:60%;
+}
+
+.trimg {
+  height:200px;
+  margin:5px;
+  border:0;
+}
+
+.imgtxt {
+  margin:5px;
+  height:180px;
+}
+
+.train {
+  margin:0px auto;
+
+}
+
+/*tablet styling for landing page*/
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 991px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+  .llinks {
+    width:60%;
+    margin:20px;
+  }  
+}
+
+/*desktop styling for landing page*/
+@media only screen  and (min-width : 1224px) {
+.landing {
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  flex-direction:row;
+}
+
+  .wline {
+    margin:90px 0px;
+  }
+  
+  .heading {
+  text-align: left;
+  font-size:110px;
+  margin-left:50px;
+  width:30%;
+  }
+ 
+  .subheading {
+    font-size:30px;
+  }
+
+  .llinks {
+    width:50%;
+    margin-right:50px;
+  }  
+  
+  .trimg {
+    height:140px;
+  }
+  
+}
+
+@media only screen  and (min-width : 1601px) {
+.landing {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:row;
+  width:80vw;
+}
+
+  .wline {
+    margin:90px 0px;
+  }
+  
+  .heading {
+  text-align: left;
+  font-size:110px;
+  margin-left:50px;
+  width:30%;
+  }
+ 
+  .subheading {
+    font-size:30px;
+  }
+
+  .llinks {
+    width:60vw;
+    margin-right:50px;
+    background-color: #000;
+    margin-bottom:20px;
+  }  
+  
+  .trimg {
+    height:140px;
+  }
+  
+}
+
+@media only screen  and (min-width : 1900px) {
+.landing {
+  width:80vw;
+}
+
+.llinks {
+    width:40vw;
+}  
+  
+}
+
+@media only screen  and (min-width : 2500px) {
+.llinks {
+  width:25vw;
+  }  
+  
+}
+
+/*end of landing page css styling*/
