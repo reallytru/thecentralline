@@ -94,7 +94,7 @@ a:link, a:visited {
   }
 
   .llinks {
-    width:70%;
+    width:50%;
     margin-right:50px;
   }  
   
@@ -125,7 +125,7 @@ a:link, a:visited {
   }
 
   .llinks {
-    width:80vw;
+    width:60vw;
     margin-right:50px;
     background-color: #000;
     margin-bottom:20px;
