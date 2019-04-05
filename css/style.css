@@ -79,12 +79,12 @@ a:link, a:visited {
 }
 
   .wline {
-    margin:90px 0px;
+    margin:50px 0px;
   }
   
   .heading {
   text-align: left;
-  font-size:110px;
+  font-size:100px;
   margin-left:50px;
   width:30%;
   }
@@ -112,10 +112,6 @@ a:link, a:visited {
   flex-direction:row;
   width:80vw;
 }
-
-  .wline {
-    margin:90px 0px;
-  }
   
   .heading {
   text-align: left;
@@ -129,7 +125,7 @@ a:link, a:visited {
   }
 
   .llinks {
-    width:60vw;
+    width:80vw;
     margin-right:50px;
     background-color: #000;
     margin-bottom:20px;
